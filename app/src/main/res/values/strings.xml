@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">College Connect</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/latobold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="college_website_url">https://www.srcem.ac.in</string>
+    <string name="university_website_url">https://www.jcboseust.ac.in/</string>
+    <string name="result_url">https://jcboseustymca.co.in/Forms/Student/ResultStudents.aspx</string>
+    <string name="result_report_url">https://jcboseustymca.co.in/Forms/Student/ResultDeclaringReport.aspx</string>
+
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="about_college">With the vision to develop a unique education delivery system, Shri Ram College of Engineering &amp; Management, popularly known as SRCEM was coined in 2008 by ‘Shree Gokulendra Educational Trust (Regd.)’. The goal of this institute is to stand tall in educational excellence at national level by innovating curricula in compliance with the industry demands and arranging required amenities while maintaining high standards. Since its inception, the institute has worked hard in devising new teaching methodologies and an innovative learning environment where students can learn, get trained and share their ideas with the teachers and colleagues</string>
+    <string name="about_us_college">The college is located at Palwal on NH-2, main Delhi – Mathura Road, about 50 kms from Badarpur/Delhi, and 40 kms from Faridabad, is easily accessible by institute transport in Delhi-NCR.
+Our Vision
+“Our vision is to strive for excellence to create a state-of-the-art education facility dedicated to transforming the nation into a world leader in the field of engineering, technology and management.”
+Our Mission
+“Our mission is to provide advanced knowledge and education to develop students into creative and thinking leaders, technocrats, entrepreneurs and managers with analytical minds who excel in solving the most complex problems and complicated situations.”</string>
+
+    <string name="about_developer">"I'm a B.Tech Computer Science graduate of 2026. I made this app to simplify communication in our college and make information readily available. My main intent is to digitize the college social experience. I hope you find the app helpful. If you spot any bugs or have ideas for improvement, please let me know by email."</string>
+
+
+    <string-array name="theme">
+
+        <item>System Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+
+
+    </string-array>
+
+</resources>

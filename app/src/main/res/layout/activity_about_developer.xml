@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_gradient"
+    android:orientation="vertical"
+    tools:context=".AboutDeveloperActivity">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/icon_coder"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:elevation="20dp"
+        android:background="@drawable/circle_background"
+        android:padding="8dp"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by - Abhishek Mishra"
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
+        android:textSize="25sp"
+        android:textColor="#FDFDFD"
+        android:fontFamily="@string/bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email - testfirst1442@gmail.com"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@string/regular"/>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardElevation="30dp"
+        app:cardCornerRadius="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/developer_card"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_developer"
+                android:textColor="#FDFDFD"
+                android:textSize="18sp"
+                android:fontFamily="@string/regular"
+                />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@string/regular"/>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardElevation="30dp"
+        app:cardCornerRadius="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/developer_card"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name - Abhishek Mishra"
+                android:textColor="#FDFDFD"
+                android:textSize="18sp"
+                android:fontFamily="@string/bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course - B.tech - CSE  (2022-26)"
+                android:textColor="#FDFDFD"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@string/regular"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Technology used here  - Java, Kotlin, Github"
+                android:textColor="#FDFDFD"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@string/regular"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Structure - Clean Architecture, MVVM, LLD"
+                android:textColor="#FDFDFD"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@string/regular"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Databases - Room, Firebase"
+                android:textColor="#FDFDFD"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@string/regular"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Structures and Algorithm, Collection frameworks"
+                android:textColor="#FDFDFD"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@string/regular"
+                />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

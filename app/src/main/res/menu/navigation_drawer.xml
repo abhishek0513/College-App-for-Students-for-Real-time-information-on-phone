@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/navigation_ebook"
+        android:title="Books/PYQs"
+        android:icon="@drawable/icon_book"/>
+
+
+    <item android:id="@+id/navigation_website"
+        android:title="Website"
+        android:icon="@drawable/icon_website"/>
+
+
+    <item android:id="@+id/navigation_video"
+        android:title="Youtube Channel"
+        android:icon="@drawable/icon_youtube"/>
+
+    <item android:id="@+id/navigation_theme"
+        android:title="Theme"
+        android:icon="@drawable/icon_theme"/>
+
+    <item android:id="@+id/navigation_facebook"
+        android:title="Facebook"
+        android:icon="@drawable/icon__facebook"/>
+
+
+    <item android:id="@+id/navigation_instagram"
+        android:title="Instagram"
+        android:icon="@drawable/icon_instagram"/>
+
+
+    <item android:id="@+id/navigation_developer"
+        android:title="About the Developer"
+        android:icon="@drawable/icon_developer"/>
+
+
+    <item android:id="@+id/navigation_university"
+        android:title="J.C. Bose University website"
+        android:icon="@drawable/icon_jcbose"/>
+
+
+    <item android:id="@+id/navigation_result"
+        android:title="Check Result"
+        android:icon="@drawable/icon_result"/>
+
+
+    <item android:id="@+id/navigation_result_report"
+        android:title="Result Report"
+        android:icon="@drawable/icon_status"/>
+
+
+
+
+</menu>
